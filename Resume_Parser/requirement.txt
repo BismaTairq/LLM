@@ -1,3 +1,0 @@
-PyMuPDF
-flask_cors
-docx2txt
