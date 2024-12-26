@@ -1,5 +1,25 @@
 # LLM 
-# 1. Resume Parser App
+
+# 1.CV-JD-Matcher
+
+This project aims to build a job description and resume matching system using Python with machine learning techniques. The system helps streamline the recruitment process by automatically matching job descriptions with submitted resumes, providing recruiters with a more efficient way to identify suitable candidates.
+
+## Features
+
+- **Job Description Input:** Recruiters can input job descriptions into the system.
+- **Resume Upload:** Candidates can upload their resumes for matching against job descriptions.
+- **Matching Algorithm:** The system utilizes machine learning algorithms to match job descriptions with resumes based on similarity scores.
+- **Result Presentation:** Matched resumes are presented to recruiters with similarity scores and relevant details.
+
+## Technologies Used
+
+- **Python:** Backend development using Python programming language.
+- **Flask:** Web framework for building the backend server and handling HTTP requests.
+- **Bootstrap:** Frontend design and layout using Bootstrap for responsive and user-friendly UI.
+- **Machine Learning Libraries:** Libraries such as scikit-learn for implementing machine learning algorithms for text similarity matching.
+- **HTML/CSS:** Frontend markup and styling for web pages.
+
+# 2. Resume Parser App
 The Resume Parser App is a web-based application that allows users to upload multiple resumes (PDF or DOCX format) and extract structured information like personal details, experience, education, skills, and more using AI-based models.
 
 ## Features
@@ -14,7 +34,7 @@ The Resume Parser App is a web-based application that allows users to upload mul
 - View the parsed data in a JSON format.
 - The data is stored in database (using PostgreSQL in this project).
   
-# 2. Summarize Webpage via Ollama
+# 3. Summarize Webpage via Ollama
 Summarize Webpage via Ollama is a simple example of using the Ollama API to summarize the content of a webpage. By providing a URL, the notebook fetches the webpage content and generates a concise summary using AI-powered summarization.
 
 ## Features
